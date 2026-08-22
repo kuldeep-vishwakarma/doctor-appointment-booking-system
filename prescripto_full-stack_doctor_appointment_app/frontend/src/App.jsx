@@ -32,6 +32,7 @@ const App = () => {
         <Route path='/verify' element={<Verify />} />
       </Routes>
       <Footer />
+      
     </div>
   )
 }

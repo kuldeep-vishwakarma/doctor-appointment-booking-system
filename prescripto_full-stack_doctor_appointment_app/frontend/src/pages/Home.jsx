@@ -3,7 +3,11 @@ import Header from '../components/Header'
 import SpecialityMenu from '../components/SpecialityMenu'
 import TopDoctors from '../components/TopDoctors'
 import Banner from '../components/Banner'
-
+import AIHealthQuote from '../components/AIHealthQuote'
+import AIHealthFact from '../components/AIHealthFact'
+import AIFirstAid from '../components/AIFirstAid'
+import AILabSimplifier from '../components/AILabSimplifier'
+import AIPrescriptionGuide from '../components/AIPrescriptionGuide'
 const Home = () => {
   return (
     <div>
@@ -11,6 +15,11 @@ const Home = () => {
       <SpecialityMenu />
       <TopDoctors />
       <Banner />
+      <AIHealthQuote />
+      <AIHealthFact />
+      <AIFirstAid />
+      <AILabSimplifier />
+      <AIPrescriptionGuide />
     </div>
   )
 }
