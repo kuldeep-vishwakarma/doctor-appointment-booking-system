@@ -13,7 +13,7 @@ const AISymptomChecker = () => {
         try {
             const ai = new GoogleGenAI({ apiKey: "AIzaSyALUpZKswy35bh2sUdEubI3a7AORSfugJU" });
             const response = await ai.models.generateContent({
-                model: 'gemini-3.6-flash',
+                model: 'gemini-3.5-flash',
                 contents: "Patient symptoms: " + symptom + ". Suggest the medical specialist category in short words, followed by a friendly advice sentence.",
             });
             setAdvice(response.text);
