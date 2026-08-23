@@ -11,7 +11,7 @@ const AIHealthQuote = () => {
             // Yahan apni Gemini API key daal dein
             const ai = new GoogleGenAI({ apiKey: "AIzaSyALUpZKswy35bh2sUdEubI3a7AORSfugJU" });
             const response = await ai.models.generateContent({
-                model: 'gemini-3.6-flash',
+                model: 'gemini-3.5-flash',
                 contents: "Write a short, inspiring health and wellness quote in one sentence.",
             });
             setQuote(response.text);

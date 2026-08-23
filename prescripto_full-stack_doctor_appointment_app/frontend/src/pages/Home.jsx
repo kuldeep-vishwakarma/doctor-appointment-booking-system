@@ -8,6 +8,7 @@ import AIHealthFact from '../components/AIHealthFact'
 import AIFirstAid from '../components/AIFirstAid'
 import AILabSimplifier from '../components/AILabSimplifier'
 import AIPrescriptionGuide from '../components/AIPrescriptionGuide'
+import MapComponent from '../components/MapComponent';
 const Home = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const Home = () => {
       <AIFirstAid />
       <AILabSimplifier />
       <AIPrescriptionGuide />
+      <MapComponent />
     </div>
   )
 }
